@@ -1,0 +1,25 @@
+.banner {
+  background-image:
+    /* Transparent gradient above */
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%),
+    /* Then image below */
+    url('https://paxful.com/blog/static/10f108971444a616e4d5010bdd2a716b/0f3a6/Sending-Money-Overseas-with-Bitcoin-1.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0px 100px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
